@@ -1,0 +1,35 @@
+body{
+    background-image: url('/images/Background.jpg');
+}
+.maintable{
+    border: 1px solid;
+    max-width: 50%;
+    width:auto;
+    margin:auto;
+}
+.secondtable{
+    border: 1px solid;
+    float:right;
+    margin: 0 auto;
+}
+button{
+    width: 100px;
+    padding: 40px 40px;
+    border:none;
+    background-color: #a74caf;
+    color:rgba(255, 255, 255, 0.5);
+}
+button:hover{
+    background-color: #429645;
+    transition: 0.7s;
+}
+div.centered table{
+    margin: 0 auto;
+}
+.changesound{
+    padding-top: 5px;
+}
+.loadsound{
+    float:right;
+    width: 40px;
+}
