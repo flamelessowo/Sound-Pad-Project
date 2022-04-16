@@ -5,49 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sound-Pad</title>
 </head>
 <body>
-    <h1 style="margin: auto; text-align: center; margin-top:10%;color:white;">Sound-pad</h1>
-    <div class="centered">
+<h1 style="margin: auto; text-align: center; margin-top:10%;color:white;">Sound-pad</h1>
+<div class="centered">
+    <table class="maintable">
+        <div id="wrapper">
+            <tr>
+                <td>
+                    <button class="btn1"></button>
+                </td>
+                <td>
+                    <button class="btn2"></button>
+                </td>
+                <td>
+                    <button class="btn3"></button>
+                </td>
+                <td>
+                    <button class="btn4"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn5"></button>
+                </td>
+                <td>
+                    <button class="btn6"></button>
+                </td>
+                <td>
+                    <button class="btn7"></button>
+                </td>
+                <td>
+                    <button class="btn8"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn9"></button>
+                </td>
+                <td>
+                    <button class="btn10"></button>
+                </td>
+                <td>
+                    <button class="btn11"></button>
+                </td>
+                <td>
+                    <button class="btn12"></button>
+                </td>
+            </tr>
+        </div>
         <table class="maintable">
             <tr>
-                <td><button class="btnQ">Q</button></td>
-                <td><button class="btnW">W</button></td>
-                <td><button class="btnE">E</button></td> 
-                <td><button class="btnR">R</button></td>      
-            </tr>
-            <tr>
-                <td><button class="btnA">A</button></td>
-                <td><button class="btnS">S</button></td>
-                <td><button class="btnD">D</button></td>  
-                <td><button class="btnF">F</button></td>     
-            </tr>
-            <tr>
-                <td><button class="btnZ">Z</button></td>
-                <td><button class="btnX">X</button></td>
-                <td><button class="btnC">C</button></td>   
-                <td><button class="btnV">V</button></td>    
-            </tr>
-            <table class="maintable">
-                <tr>
-                    <td>
-                        <select name="Buttons" id="">
-                            buttons
-                            <option value="Q">Q</option>
-                        </select>
-                        <span style="margin-left: 5px;color:white">Change Sound</span> 
+                <td>
+                    <select name="Buttons" class="select">
+                        buttons
+                    </select>
+                    <span style="margin-left: 5px;color:white">Change Sound</span>
                     <form action="/action_page.php" class="changesound">
                         <input type="file" id="myFile" name="filename" style="color:white;">
                         <input type="button" class="loadsound" value="Load">
                     </form>
-                    
-                    </td>
-                </tr>
-                
-            </table>
+                </td>
+            </tr>
         </table>
-    </div>
-
+    </table>
+</div>
+<script src="soundpad.js"></script>
 </body>
 </html>
