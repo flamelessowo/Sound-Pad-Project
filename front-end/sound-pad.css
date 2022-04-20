@@ -18,10 +18,15 @@ button{
     border:none;
     background-color: #a74caf;
     color:rgba(255, 255, 255, 0.5);
+    font-family: 'Anek Telugu', sans-serif;
 }
 button:hover{
     background-color: #429645;
     transition: 0.7s;
+}
+button:active{
+    transform: scale(0.85);
+    transition: 0.4s;
 }
 div.centered table{
     margin: 0 auto;
